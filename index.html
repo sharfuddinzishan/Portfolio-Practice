@@ -99,9 +99,10 @@
                 <h4 class="text-white text-center ">Do You Need My Service?</h4>
             </div>
             <div class="col col-sm-6 ">
-                <button class=" btn btn-outline-light btn-sm rounded-pill text-muted d-block mx-auto fw-bold " data-bs-toggle="modal " data-bs-target="#contactFormModal ">
+                <button class=" btn btn-outline-light btn-sm rounded-pill text-muted d-block mx-auto fw-bold " 
+                data-bs-toggle="modal" data-bs-target="#contactFormModal">
                  Hire Me 
-                     <i class="bi bi-person-rolodex "></i>
+                     <i class="bi bi-person-rolodex"></i>
                 </button>
             </div>
         </div>
@@ -163,7 +164,7 @@
 
         <div class="row mb-2 gy-3 ">
 
-            <div class="col-12 col-lg-6 ">
+            <!-- <div class="col mx-auto">
                 <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative ">
                     <div class="col p-4 d-flex flex-column position-static w-100 ">
                         <strong class="d-inline-block mb-2 text-primary ">Hero Cycle</strong>
@@ -184,9 +185,58 @@
                         <img class="img-fluid img-thumbnail h-75 project-thumbnail " src="./images/Hero-Cycle.png " width="300 "/>
                     </div>
                 </div>
+            </div> -->
+
+            <div class="col mx-auto">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static w-100">
+                        <strong class="d-inline-block mb-2 text-primary">Hero Health Care</strong>
+                        <h3 class="mb-0 ">Health Care Related Site</h3>
+                        <p class="mb-1 text-muted ">Nov 15</p>
+                        <p class="card-text ">
+                            - User Can Manage Own Orders and Reviews<br/> 
+                            - Admin and User Dashboard Feature Based On Role<br/> 
+                            - Admin Can Add Cycles and Manage Orders<br/> 
+                            - Dynamic Star Rating Based On User Review
+                        </p>
+                        <p className="d-block fw-bold lh-1 ">Technologies:
+                            <span class="text-uppercase bg-info d-inline-block m-1 p-1 rounded-3 ">React</span>
+                            <span class="text-uppercase bg-info d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                            <span class="text-uppercase bg-info d-inline-block m-1 p-1 rounded-3 ">Express</span>
+                            <span class="text-uppercase bg-info d-inline-block m-1 p-1 rounded-3 ">Mongodb</span>
+                        </p>
+                        <a href="# " class=" ">More Details</a>
+                    </div>
+                    <div class="col-auto thumbnail-div mx-auto ">
+                        <img class="img-fluid img-thumbnail h-75 project-thumbnail " src="./images/Hero-Cycle.png" width="300"/>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-lg-6 ">
+            <div class="col mx-auto">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static w-100">
+                        <strong class="d-inline-block mb-2 text-primary">Hero Health Care</strong>
+                        <h3 class="mb-0 ">Health Care Related Site</h3>
+                        <p class="mb-1 text-muted ">Nov 15</p>
+                        <p class="card-text ">
+                            - Doctors List Only Showed To Logged/Registered User<br/> 
+                            - Have Google Sign-In System<br/> 
+                            - Admin Can Manage Orders<br/>
+                        </p>
+                        <p className="d-block fw-bold lh-1 ">Technologies:
+                            <span class="text-uppercase bg-info d-inline-block m-1 p-1 rounded-3 ">React</span>
+                            <span class="text-uppercase bg-info d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                        </p>
+                        <a href="# " class=" ">More Details</a>
+                    </div>
+                    <div class="col-auto thumbnail-div mx-auto ">
+                        <img class="img-fluid img-thumbnail h-75 project-thumbnail " src="./images/Hero-Health-Care.png" width="300"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mx-auto">
                 <div class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-100 position-relative ">
                     <div class="col p-4 d-flex flex-column position-static w-100 ">
                         <strong class="d-inline-block mb-2 text-primary ">Hero Health Care</strong>
@@ -241,37 +291,28 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 ">
-            <form class="row g-3 " target="_blank " action="https://formsubmit.co/ahamedsharfuddin91@gmail.com " method="POST ">
-                <div class="col-12 col-md-6 ">
-                    <input type="text " name="name " id=" " class="form-control form-control-sm " placeholder="Your Name " />
+        <div class="col-12 col-md-6">
+            <form target="_blank" action="https://formsubmit.co/ahamedsharfuddin91@gmail.com" method="POST">
+                <div class="row row-cols-1 row-cols-2 g-3">
+                    <input required name="name" type="text" placeholder="Name " class="w-100 border px-4 py-2 rounded-3">
+                    <input required name="email" type="email" placeholder="E-mail " class="w-100 border px-4 py-2 rounded-3">
+                    <input name="subject" type="text" placeholder="Subject " class="w-100 border px-4 py-2 rounded-3 ">
+                    <textarea required name="message" class="w-100 border px-4 py-2 rounded-3 " " rows="5 " placeholder="message "></textarea>
+                    <input hidden name="_captcha" value="false " >
+                    <input hidden name="_autoresponse" value="Thanks! I Will Contact With You Very Soon " >
+                    <input hidden name="_next" value="https://sharfuddin-me.netlify.app/">
+                    <input hidden name="_subject" value="New submission! " >
                 </div>
-                <div class="col-12 col-md-6 ">
-                    <input type="email " name="email " id=" " class="form-control form-control-sm " placeholder="Email " />
-                </div>
-                <div class="col-12 ">
-                    <input type="text " name="subject " id=" " class="form-control form-control-sm " placeholder="Subject " />
-                </div>
-                <div class="col-12 ">
-                    <textarea rows="5 " name="message " id=" " class="form-control form-control-sm " placeholder="Type Your Message "></textarea>
-                </div>
-                <!-- <input type="hidden " name="_captcha " value="false ">
-                <input type="hidden " name="_autoresponse " value="Thanks! I Will Contact With You Very Soon ">
-                <input type="hidden " name="_next " value="https://sharfuddin-me.netlify.app/ ">
-                <input type="hidden " name="_subject " value="New submission! "> -->
-                <div class="col-12 ">
-                    <button class="btn btn-primary " type="submit ">Send Message</button>
-                </div>
+                    <button type="submit" class="btn btn-primary d-nline-block mx-auto mt-4 px-5 py-2 rounded-3 shadow text-light fw-bold ">Send Message</button>
             </form>
         </div>
-    </div>
-</section>
-<!-- Contact Form End -->
+    </section>
+    <!-- Contact Form End -->
 
     <!-- Footer Start  -->
-    <footer class="bg-dark p-5 ">
-        <div class="row g-3 text-center ">
-            <div class="col-12 col-md-4 ">
+    <footer class="bg-dark p-5">
+        <div class="row g-3 text-center">
+            <div class="col-12 col-md-4">
                 <p class="text-white ">Quick Links</p>
                 <a class="text-decoration-none d-block " href="# ">Projects</a>
                 <a class="text-decoration-none d-block " href="# ">About Me</a>
@@ -285,7 +326,7 @@
             <div class="col-12 col-md-4 ">
                 <p class="text-white text-center ">Contact</p>
                 <a class="btn text-muted fw-bold me-2 " href="tel:+8801933572903 "><i class="bi bi-telephone text-primary h3 "></i></a>
-                <button class="btn text-muted fw-bold " data-bs-toggle="modal " data-bs-target="#contactFormModal "> 
+                <button class="btn text-muted fw-bold " data-bs-toggle="modal" data-bs-target="#contactFormModal"> 
                      <i class="bi bi-envelope text-primary h3 "></i>
                 </button>
             </div>
@@ -294,39 +335,39 @@
     <!-- Footer End  -->
 
     <!-- Start Modal For Contact Form  -->
-    <div class="modal fade " id="contactFormModal ">
-        <div class="modal-dialog modal-dialog-scrollable ">
-            <div class="modal-content ">
-                <div class="modal-header ">
+    <div class="modal fade" id="contactFormModal">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
                     <h5 class="modal-title " id="exampleModalLabel ">Contact Form</h5>
-                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body ">
-                    <form class="row g-3 " target="_blank " action="https://formsubmit.co/ahamedsharfuddin91@gmail.com " method="POST ">
+                    <form class="row g-3 " target="_blank " action="https://formsubmit.co/ahamedsharfuddin91@gmail.com" method="POST">
                         <p>I am open for any suggestion or just to have a chat.</p>
-                        <div class="col-12 col-md-6 ">
-                            <input type="text " name="name " id=" " class="form-control form-control-sm " placeholder="Your Name " />
+                        <div class="col-12 col-md-6">
+                            <input type="text " name="name" id=" " class="form-control form-control-sm " placeholder="Your Name " />
                         </div>
                         <div class="col-12 col-md-6 ">
-                            <input type="email " name="email " id=" " class="form-control form-control-sm " placeholder="Email " />
+                            <input type="email " name="email" id=" " class="form-control form-control-sm " placeholder="Email " />
                         </div>
                         <div class="col-12 ">
-                            <input type="text " name="subject " id=" " class="form-control form-control-sm " placeholder="Subject " />
+                            <input type="text " name="subject" id=" " class="form-control form-control-sm " placeholder="Subject " />
                         </div>
                         <div class="col-12 ">
                             <textarea type="text " rows="5 " name="message " id=" " class="form-control form-control-sm " placeholder="Type Your Message "></textarea>
                         </div>
-                        <input type="hidden " name="_captcha " value="false ">
-                        <input type="hidden " name="_autoresponse " value="Thanks! I Will Contact With You Very Soon ">
-                        <input type="hidden " name="_next " value="https://sharfuddin-me.netlify.app/ ">
-                        <input type="hidden " name="_subject " value="New submission! ">
+                        <input hidden name="_captcha" value="false">
+                        <input hidden name="_autoresponse" value="Thanks! I Will Contact With You Very Soon">
+                        <input hidden name="_next" value="https://sharfuddin-me.netlify.app/">
+                        <input hidden name="_subject" value="New submission!">
                         <div class="col-12 ">
-                            <button class="btn btn-primary " type="submit ">Send Message</button>
+                            <button class="btn btn-primary " type="submit">Send Message</button>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer ">
-                    <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                    <button type="button " class="btn btn-secondary " data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

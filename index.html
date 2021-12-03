@@ -5,27 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon  -->
+    <link rel="icon" href="./images/favicon.ico" type="image/ico" sizes="16x16">
+    <!-- Bootstrap CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Boootstrap Icon  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./stylesheets/portfolio.css">
-    <!-- Custom JS  -->
-    <link rel="stylesheet" href="./js/index.js">
     <!-- Box Icon  -->
     <link href='https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css' rel='stylesheet'>
     <title>Sharfuddin Portfolio</title>
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <span><img class="rounded-circle" src="./images/img.png" alt="" style="width: 40px;"><span>Sharfuddin</span></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -33,32 +34,31 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects-section">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#about-section">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact-section">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-color text-light" 
-                        href="https://drive.google.com/u/1/uc?id=1X_C-K16hcBxwFXqCh7LYFHNwrFV7RtmQ&export=download">Download Resume</a>
+                        <a class="nav-link btn btn-color text-light" href="https://drive.google.com/u/1/uc?id=1X_C-K16hcBxwFXqCh7LYFHNwrFV7RtmQ&export=download">Download Resume</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <!-- Navbar End -->
+      </nav>
+      <!-- Navbar End -->
 
-    <!-- Profile Start  -->
-    <section id="banner-profile" class="container-fluid p-5">
+      <!-- Profile Start  -->
+      <section id="banner-profile" class="container-fluid p-5">
         <div class="row mt-5">
             <div class="col-12 col-md-10 col-lg-8 mx-auto intro-section mt-2">
                 <div class="card-intro card">
                     <div class="card-body row">
                         <div class="col-12 col-md-8">
-                            <div class="">
+                            <div>
                                 <p>
                                     <span class="pt-1 fw-bold display-5">Sharfuddin Ahamed</span>
                                     </br>
@@ -66,360 +66,322 @@
                                 </p>
                                 <h5 class="text-muted">Passionate Frontend Developer from <span class="fw-bold fs-4 text-success">Bangladesh</span> </h5>
                             </div>
-                            <!-- <p class=" text-start ">Loved to learn and explore. I am comfortable in Bootstrap and React.js. 
-                                Looking for forward to work as react developer.
-                            </p> -->
                         </div>
                         <div class="col-md-4">
-                            <img src=./images/img.jpg " class="w-75 d-none d-md-block mx-auto rounded-circle border-3 border-info shadow-lg img-thumbnail " alt=" ">
-                        </div>
-                        <div class="col-12">
-                            <table class="table table-sm table-responsive">
-                                <tr>
-                                    <td>Education</td>
-                                    <td>Bsc in Computer Science & Engineering</td>
-                                </tr>
-                                <tr>
-                                    <td>Skills</td>
-                                    <td>Bootstrap 5, React, Node.js, Express, Mongodb</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="card-footer bg-white border-top-0">
-                              <a href="https://github.com/sharfuddinzishan?tab=repositories" class="twitter" target="_blank" ><i class="h2 me-2 bi bi-github"></i></a>
-                              <a href="https://www.linkedin.com/in/sharfuddin-ahamed/" class="linkedin" target="_blank"><i class="h2 me-2 bi bi-linkedin"></i></a>
-                    </div>
-                </div>
+                            <img src="./images/img.jpg" class="w-75 d-none d-md-block mx-auto rounded-circle border-3 border-info shadow-lg img-thumbnail " alt=" ">
+                     </div>
+                     <div class="col-12 ">
+                        <table class="table table-sm table-responsive ">
+                           <tr>
+                              <td>Education</td>
+                              <td>Bsc in Computer Science & Engineering</td>
+                           </tr>
+                           <tr>
+                              <td>Skills</td>
+                              <td>Bootstrap 5, React, Node.js, Express, Mongodb</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="card-footer bg-white border-top-0 ">
+                     <a href="https://github.com/sharfuddinzishan?tab=repositories" class="twitter " target="_blank" ><i class="h2 me-2 bi bi-github "></i></a>
+                     <a href="https://www.linkedin.com/in/sharfuddin-ahamed/" class="linkedin " target="_blank"><i class="h2 me-2 bi bi-linkedin "></i></a>
+                  </div>
+               </div>
             </div>
-            </div>
-    </section>
-    <!-- Profile End  -->
+         </div>
+      </section>
+      <!-- Profile End  -->
 
+      <!-- HireMe Banner Start-->
+      <section class="container-fluid bg-info p-3 ">
+         <div class="d-flex flex-row align-items-center justify-content-center gap-5 ">
+            <h4 class="text-white ">Do You Need My Service?</h4>
+            <button class=" btn btn-outline-success btn-sm rounded-pill fs-5 fw-bold p-3 " 
+               data-bs-toggle="modal" data-bs-target="#contactFormModal">
+            <i class="bi bi-person-rolodex"></i> Hire Me 
+            </button>
+         </div>
+      </section>
+      <!-- HireMe Banner End -->
 
-    <!-- Contact Banner -->
-    <section class="container-fluid bg-info p-3">
-        <div class="d-flex flex-row align-items-center justify-content-center gap-5">
-                <h4 class="text-white ">Do You Need My Service?</h4>
-                <button class=" btn btn-outline-success btn-sm rounded-pill fs-5 fw-bold p-3" 
-                data-bs-toggle="modal" data-bs-target="#contactFormModal">
-                <i class="bi bi-person-rolodex"></i> Hire Me 
-                </button>
-        </div>
-    </section>
-    <!-- Contact Banner End -->
-
-    <!-- Service Start  -->
-    <section class="container-fluid p-5 " style="background-color: #F9FAFB; ">
-        <div class="text-center ">
-            <h1 class="text-primary text-uppercase">Services</h1>
+      <!-- Service Start  -->
+      <section class="container-fluid p-5" style="background-color: #F9FAFB;">
+         <div class="text-center ">
+            <h1 class="text-primary text-uppercase ">Services</h1>
             <p class="mb-4 fst-italic ">Heres What I Offer.</p>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-3 g-5 mt-2 ">
+         </div>
+         <div class="row row-cols-1 row-cols-md-3 g-5 mt-2 ">
             <div class="col intro-section ">
-              <div class="card card-intro h-100 ">
-                <img src="https://www.rouge-media.com/wp-content/uploads/2019/05/web-app-illustration-1.png " 
-                height="300px "
-                class="card-img-top " alt="... ">
-                <div class="card-body ">
-                  <h5 class="card-title fw-bold fs-4 ">Responsive Websites</h5>
-                  <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
+               <div class="card card-intro h-100">
+                  <img src="https://www.rouge-media.com/wp-content/uploads/2019/05/web-app-illustration-1.png" height="300px"
+                     class="card-img-top " alt="Responsive Bootstrap">
+                  <div class="card-body ">
+                     <h5 class="card-title fw-bold fs-4 ">Responsive Websites</h5>
+                     <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+               </div>
             </div>
             <div class="col intro-section ">
-              <div class="card card-intro h-100 ">
-                <img src="https://www.upwork.com/catalog-images-resized/ba88081213d0f6e37e938d0295e43e5b/large "
-                height="300px "
-                class="card-img-top " alt="... ">
-                <div class="card-body ">
-                  <h5 class="card-title fw-bold fs-4 ">Frontend Development</h5>
-                  <p class="card-text ">This is a short card.</p>
-                </div>
-              </div>
+               <div class="card card-intro h-100">
+                  <img src="https://www.upwork.com/catalog-images-resized/ba88081213d0f6e37e938d0295e43e5b/large" height="300px"
+                     class="card-img-top " alt="Fronend Developer">
+                  <div class="card-body">
+                     <h5 class="card-title fw-bold fs-4 ">Frontend Development</h5>
+                     <p class="card-text ">This is a short card.</p>
+                  </div>
+               </div>
             </div>
             <div class="col intro-section ">
-              <div class="card card-intro h-100 ">
-                <img src="https://evolytics.com/wp-content/uploads/2016/02/Monetizing-Online-Customer-Care-Feature.png " 
-                height=" 300px "
-                class="card-img-top " alt="... ">
-                <div class="card-body ">
-                  <h5 class="card-title fw-bold fs-4 ">24 Hours Support</h5>
-                  <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
+               <div class="card card-intro h-100">
+                  <img src="https://evolytics.com/wp-content/uploads/2016/02/Monetizing-Online-Customer-Care-Feature.png" height="300px"
+                     class="card-img-top " alt="Support">
+                  <div class="card-body ">
+                     <h5 class="card-title fw-bold fs-4 ">24 Hours Support</h5>
+                     <p class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+               </div>
             </div>
-          </div>
-    </section>
-    <!-- Service End  -->
+         </div>
+      </section>
+      <!-- Service End  -->
 
-
-    <!-- Projects Section Start  -->
-    <section class="container-fluid p-5 ">
-        <div class="text-center ">
-            <h1 class="text-primary text-uppercase">Work</h1>
+      <!-- Projects Start  -->
+      <section class="container-fluid p-5 " id="projects-section">
+         <div class="text-center ">
+            <h1 class="text-primary text-uppercase ">Work</h1>
             <p class="mb-4 fst-italic ">Here is my portfolio.</p>
-        </div>
-
-<div class="row gy-3">
-
-    <div class="col-12">
-        <div class="row">
-            <div class="card col-12 col-md-4 bg-info p-4 d-flex flex-column single-project">
-                <strong class="d-inline-block mb-2 text-primary">1) Hero Health Care</strong>
-                <h3 class="mb-0 ">Health Care Related Site</h3>
-                <p class="mb-1 text-muted ">Nov 5</p>
-                <p class="card-text ">
-                    - Doctors List Only Showed To Registered User<br/> 
-                    - Have Google Sign-In System<br/> 
-                    - Admin Can Manage Orders<br/>
-                </p>
-                <p className="d-block fw-bold lh-1 ">Technologies:
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Heroku</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
-                </p>
-                <div class="d-flex flex-column flex-sm-row gap-2">
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Details</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Live</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Client</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Server</a>
-                </div>
+         </div>
+         <div class="row gy-3 ">
+            <div class="col-12 ">
+               <div class="row ">
+                  <div class="card col-12 col-md-4 bg-info p-4 d-flex flex-column single-project ">
+                     <strong class="d-inline-block mb-2 text-primary ">1) Hero Health Care</strong>
+                     <h3 class="mb-0 ">Health Care Related Site</h3>
+                     <p class="mb-1 text-muted ">Oct 20, 2021</p>
+                     <p class="card-text ">
+                        - Doctors List Only Showed To Registered User<br/> 
+                        - Have Google Sign-In System<br/> 
+                        - Admin Can Manage Orders<br/>
+                     </p>
+                     <p className="d-block fw-bold lh-1 ">Technologies:
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Heroku</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
+                     </p>
+                     <div class="d-flex flex-column flex-sm-row gap-2 ">
+                        <a href="# " target="_blank " class="btn btn-sm btn-warning ">Details</a>
+                        <a href="https://hero-health-care-hhc.netlify.app/" target="_blank " class="btn btn-sm btn-warning ">Live</a>
+                        <a href="https://github.com/sharfuddinzishan/Hero-Health-Care" target="_blank " class="btn btn-sm btn-warning ">Client</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-8 thumbnail-div ">
+                     <img class="img-fluid img-thumbnail project-thumbnail d-block " src="./images/Hero-Health-Care.png"/>
+                  </div>
+               </div>
             </div>
-            <div class="col-12 col-md-8 thumbnail-div">
-                <img class="img-fluid img-thumbnail project-thumbnail d-block" src="./images/Hero-Health-Care.png"/>
+            <div class="col-12 ">
+               <div class="row ">
+                  <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column single-project ">
+                     <strong class="d-inline-block mb-2 text-primary ">2) Hero Cycle</strong>
+                     <h3 class="mb-0 ">Bicycle Selling Site</h3>
+                     <p class="mb-1 text-muted ">Nov 13, 2021</p>
+                     <p class="card-text ">
+                        - User Can Manage Own Orders and Reviews <br>
+                        - Admin and User Dashboard Feature Based On Role <br>
+                        - Admin Can Add Cycles and Manage Orders <br>
+                        - Dynamic Star Rating <br>
+                     </p>
+                     <p className="d-block fw-bold lh-1 ">Technologies:
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">JWT</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Firebase</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
+                     </p>
+                     <div class="d-flex flex-column flex-sm-row gap-2 ">
+                        <a href="# " target="_blank" class="btn btn-sm btn-warning ">Details</a>
+                        <a href="https://hero-cycle.web.app/ " target="_blank " class="btn btn-sm btn-warning ">Live</a>
+                        <a href="https://github.com/programming-hero-web-course-4/niche-website-client-side-sharfuddinzishan" target="_blank" class="btn btn-sm btn-warning ">Client</a>
+                        <a href="https://github.com/programming-hero-web-course-4/niche-website-server-side-sharfuddinzishan" target="_blank" class="btn btn-sm btn-warning ">Server</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-8 thumbnail-div ">
+                     <img class="img-fluid img-thumbnail project-thumbnail d-block " src="./images/Hero-Cycle.png"/>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <div class="col-12">
-        <div class="row">
-            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column single-project">
-                <strong class="d-inline-block mb-2 text-primary">2) Hero Cycle</strong>
-                <h3 class="mb-0 ">Bicycle Selling Site</h3>
-                <p class="mb-1 text-muted ">Nov 12</p>
-                <p class="card-text ">
-                    - User Can Manage Own Orders and Reviews <br>
-                    - Admin and User Dashboard Feature Based On Role <br>
-                    - Admin Can Add Cycles and Manage Orders <br>
-                    - Dynamic Star Rating <br>
-                </p>
-                <p className="d-block fw-bold lh-1 ">Technologies:
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">JWT</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Firebase</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
-                </p>
-                <div class="d-flex flex-column flex-sm-row gap-2">
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Details</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Live</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Client</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Server</a>
-                </div>
+            <div class="col-12 ">
+               <div class="row ">
+                  <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column single-project ">
+                     <strong class="d-inline-block mb-2 text-primary ">3) Hero Travel</strong>
+                     <h3 class="mb-0 ">Travel Booking Related Site</h3>
+                     <p class="mb-1 text-muted ">Oct 31, 2021</p>
+                     <p class="card-text ">
+                        - For Booking, user have to logged into system <br>
+                        - Create, Update, Delete on Bookings & Orders list <br>
+                        - Sort User All Booking list by email <br>
+                        - Confirmed Booking can not be cancelled by user.
+                     </p>
+                     <p className="d-block fw-bold lh-1 ">Technologies:
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Moment.js</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
+                        <span class="text-light text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
+                     </p>
+                     <div class="d-flex flex-column flex-sm-row gap-2 ">
+                        <a href="# " target="_blank " class="btn btn-sm btn-warning ">Details</a>
+                        <a href="https://hero-travel.web.app/" target="_blank" class="btn btn-sm btn-warning ">Live</a>
+                        <a href="https://github.com/sharfuddinzishan/Hero-Travel-Client-Side" target="_blank" class="btn btn-sm btn-warning ">Client</a>
+                        <a href="https://github.com/sharfuddinzishan/Hero-Travel-Server-Side" target="_blank" class="btn btn-sm btn-warning ">Server</a>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-8 thumbnail-div " >
+                     <img class="img-fluid img-thumbnail project-thumbnail d-block " src="./images/Hero-Travel.png"/>
+                  </div>
+               </div>
             </div>
-            <div class="col-12 col-md-8 thumbnail-div">
-                <img class="img-fluid img-thumbnail project-thumbnail d-block" src="./images/Hero-Cycle.png"/>
+         </div>
+      </section>
+      <!-- Projects End  -->
+
+      <!-- About Start -->
+      <section class="container-fluid p-5 " id="about-section">
+         <div class="container ">
+            <h1 class="text-uppercase text-primary text-center ">About Me</h1>
+            <div class="row align-items-center ">
+               <div class="col-lg-5 pb-4 pb-lg-0 ">
+                  <img class="img-fluid rounded w-100 " src="./images/side-img.jpg" alt=" ">
+               </div>
+               <div class="col-lg-7 ">
+                  <h3 class="mb-4 ">Junior Frontend Developer</h3>
+                  <p>
+                     Loved to learn and explore. I am comfortable in Bootstrap and React.js. 
+                     Looking for forward to work as react developer.
+                  </p>
+                  <div class="row mb-3 ">
+                     <div class="col-sm-6 py-2 ">
+                        <h6>Name: <span class="text-secondary ">Sharfuddin Ahamed</span></h6>
+                     </div>
+                     <div class="col-sm-6 py-2 ">
+                        <h6>Comfortable: 
+                           <span class="text-secondary ">
+                           Bootstrap, ES6, React
+                           </span>
+                        </h6>
+                     </div>
+                     <div class="col-sm-6 py-2 ">
+                        <h6>Degree: <span class="text-secondary ">Bachelor of Science in CSE</span></h6>
+                     </div>
+                     <div class="col-sm-6 py-2 ">
+                        <h6>Familiar: 
+                           <span class="text-secondary ">
+                           Node.js , Express, MongoDB
+                           </span>
+                        </h6>
+                     </div>
+                     <div class="col-sm-6 py-2 ">
+                        <h6>Country: <span class="text-secondary ">Bangladesh</span></h6>
+                     </div>
+                     <div class="col-sm-6 py-2 ">
+                        <h6>Forgetting (Not Practised for Long Time): 
+                           <span class="text-secondary ">
+                           Selenium, Oracle APEX, JSP Servlet, PHP, After Effects, Maya 3D Modeling
+                           </span>
+                        </h6>
+                     </div>
+                  </div>
+                  <button class="btn btn-color " data-bs-toggle="modal" data-bs-target="#contactFormModal">Hire Me</button>
+               </div>
             </div>
-        </div>
-    </div>
+         </div>
+      </section>
+      <!-- About End -->
 
-    <div class="col-12">
-        <div class="row">
-            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column  single-project">
-                <strong class="d-inline-block mb-2 text-primary">3) Hero Travel</strong>
-                <h3 class="mb-0 ">Travel Booking Related Site</h3>
-                <p class="mb-1 text-muted ">Nov 5</p>
-                <p class="card-text ">
-                    - For Booking, user have to logged into system <br>
-                    - Create, Update, Delete on Bookings & Orders list <br>
-                    - Sort User All Booking list by email <br>
-                    - Confirmed Booking can not be cancelled by user.
-                </p>
-                <p className="d-block fw-bold lh-1 ">Technologies:
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Moment.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
-                </p>
-                <div class="d-flex flex-column flex-sm-row gap-2">
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Details</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Live</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Client</a>
-                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Server</a>
-                </div>
+      <!-- Contact Form Start -->
+      <section class="container-fluid bg-dark p-5 " id="contact-section">
+         <h1 class="text-center text-primary text-uppercase ">Contact Me</h1>
+         <p class="mb-4 fst-italic text-center text-light ">I am open for any suggestion or just to have a chat.</p>
+         <div class="row mt-2 ">
+            <div class="col-md-6 d-flex align-items-stretch ">
+               <div class="info-box card">
+                  <i class="bx bx-map "></i>
+                  <h3>My Address</h3>
+                  <p>North Anandapur, Feni, Bangladesh</p>
+               </div>
             </div>
-            <div class="col-12 col-md-8 thumbnail-div" >
-                <img class="img-fluid img-thumbnail project-thumbnail d-block" src="./images/Hero-Travel.png"/>
+            <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch ">
+               <div class="info-box card">
+                  <i class="bx bx-share-alt"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links ">
+                     <a href="https://github.com/sharfuddinzishan?tab=repositories" target="_blank " class="github "><i class="bi bi-github "></i></a>
+                     <a href="https://www.linkedin.com/in/sharfuddin-ahamed/" target="_blank " class="linkedin "><i class="bi bi-linkedin "></i></a>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-</div>
-     
-
-    </section>
-    <!-- Projects Section End  -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid p-5" id="about">
-        <div class="container">
-                <h1 class="text-uppercase text-primary text-center">About Me</h1>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="https://www.cloudways.com/blog/wp-content/uploads/Why-ReactJS-Should-be-a-Perfect-Choice-for-Your-Next-Front-end-Application-Banner.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">Junior Frontend Developer</h3>
-                    <p>
-                        Loved to learn and explore. I am comfortable in Bootstrap and React.js. 
-                                Looking for forward to work as react developer.
-                    </p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Sharfuddin Ahamed</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Comfortable: 
-                            <span class="text-secondary">
-                            Bootstrap, ES6, React
-                            </span></h6>
+            <div class="col-md-6 mt-4 d-flex align-items-stretch ">
+               <div class="info-box card">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Me</h3>
+                  <p class="card-text ">sharfuddin.ahamed91@gmail.com</p>
+               </div>
+            </div>
+            <div class="col-md-6 mt-4 d-flex align-items-stretch ">
+               <div class="info-box card">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Me</h3>
+                  <p>+880 1933572903</p>
+               </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-6 mx-auto mt-5 p-0 p-md-5 ">
+               <form target="_blank" action="https://formsubmit.co/ahamedsharfuddin91@gmail.com" method="POST" class="contact-section">
+                  <div class="row row-cols-1 row-cols-2 g-3 contact-intro p-0 p-md-5" style="background: rgba(255, 255, 255, 0.08);">
+                     <input required name="name" type="text" placeholder="Name" class="form-control form-control-sm w-100 border rounded-3">
+                     <input required name="email" type="email" placeholder="E-mail" class="form-control form-control-sm w-100 border rounded-3">
+                     <input name="subject" type="text " placeholder="Subject " class="form-control form-control-sm w-100 border rounded-3">
+                     <textarea required name="message " class="form-control form-control-sm w-100 border rounded-3" rows="5" placeholder="message "></textarea>
+                            <input hidden name="_captcha" value="false">
+                            <input hidden name="_autoresponse" value="Thanks! I Will Contact With You Very Soon">
+                            <input hidden name="_next" value="https://sharfuddin-me.netlify.app/">
+                            <input hidden name="_subject" value="New submission!">
+                            <button type="submit" class="btn btn-sm btn-color mt-2 rounded-3 shadow text-light fw-bold">Send Message</button>
                         </div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelor of Science in CSE</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Familiar: 
-                            <span class="text-secondary">
-                            Node.js , Express, MongoDB
-                            </span></h6>
-                        </div>
-                        <div class="col-sm-6 py-2"><h6>Country: <span class="text-secondary">Bangladesh</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Forgetting (Not Practised for Long Time): 
-                            <span class="text-secondary">
-                                Selenium, Oracle APEX, JSP Servlet, PHP, After Effects, Maya 3D Modeling
-                            </span></h6>
-                        </div>
+               </form>
                     </div>
-                    <a href="" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#contactFormModal">Hire Me</a>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
+      </section>
+      <!-- Contact Form End -->
 
-
- <!-- Contact Form Start -->
- <section class="container-fluid bg-dark p-5 contact">
-    <h1 class="text-center text-primary text-uppercase">Contact Me</h1>
-    <p class="mb-4 fst-italic text-center text-light">I am open for any suggestion or just to have a chat.</p>
-
-
-    <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>North Anandapur, Feni, Bangladesh</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://github.com/sharfuddinzishan?tab=repositories" target="_blank" class="github"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/sharfuddin-ahamed/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box card">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p class="card-text">sharfuddin.ahamed91@gmail.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+880 1933572903</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-10 col-lg-6 mx-auto mt-5 p-0 p-md-5">
-            <form target="_blank" action="https://formsubmit.co/ahamedsharfuddin91@gmail.com" method="POST" class="contact-section">
-                <div class="row row-cols-1 row-cols-2 g-3 contact-intro p-0 p-md-5" style="background: rgba(255, 255, 255, 0.08);">
-                    <input required name="name" type="text" placeholder="Name " class="form-control form-control-sm w-100 border rounded-3">
-                    <input required name="email" type="email" placeholder="E-mail " class="form-control form-control-sm w-100 border rounded-3">
-                    <input name="subject" type="text" placeholder="Subject " class="form-control form-control-sm w-100 border  rounded-3 ">
-                    <textarea required name="message" class="form-control form-control-sm w-100 border rounded-3 " " rows="5 " placeholder="message "></textarea>
-                    <input hidden name="_captcha" value="false " >
-                    <input hidden name="_autoresponse" value="Thanks! I Will Contact With You Very Soon " >
-                    <input hidden name="_next" value="https://sharfuddin-me.netlify.app/">
-                    <input hidden name="_subject" value="New submission! " >
-                    <button type="submit" class="btn btn-sm btn-color mt-2 rounded-3 shadow text-light fw-bold ">Send Message</button>
-                </div>
-            </form>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Form End -->
-
-    <!-- Footer Start  -->
-
-
-    <footer class="container-fluid bg-footer text-white py-1 px-sm-1 px-md-5">
+      <!-- Footer Start  -->
+      <footer class="container-fluid bg-footer text-white py-1 px-sm-1 px-md-5">
         <div class="container text-center py-5">
-<div class="row">
-    <div class="col-4 mx-auto">
-        <div class=" d-flex justify-content-center">
-            <a class="text-white ms-2 me-2 h2" href="https://github.com/sharfuddinzishan?tab=repositories" target="_blank"><i class="bi bi-github"></i></a>
-            <a class="text-white ms-2 me-2 h2" href="https://www.linkedin.com/in/sharfuddin-ahamed/" target="_blank"><i class="bi bi-linkedin"></i></a>
-        </div>
-    </div>
-    <div class="col-12 my-3 mx-auto">
-        <div class="d-flex justify-content-center ">
-           <a class="text-white ms-2 me-2" href="#">Privacy</a>
-           <a class="text-white ms-2 me-2" href="#">Terms</a>
-           <a class="text-white ms-2 me-2" href="#">FAQs</a>
-           <a class="text-white ms-2 me-2" href="#">Help</a>
-        </div>
-    </div>
-</div>
-            <p class="m-0">©2021. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://www.linkedin.com/in/sharfuddin-ahamed/">Sharfuddin Ahamed</a>
+            <div class="row">
+                <div class="col-4 mx-auto">
+                    <div class=" d-flex justify-content-center">
+                        <a class="text-white ms-2 me-2 h2" href="https://github.com/sharfuddinzishan?tab=repositories" target="_blank"><i class="bi bi-github"></i></a>
+                        <a class="text-white ms-2 me-2 h2" href="https://www.linkedin.com/in/sharfuddin-ahamed/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 my-3 mx-auto">
+                    <div class="d-flex justify-content-center ">
+                        <a class="text-white ms-2 me-2" href="#">Privacy</a>
+                        <a class="text-white ms-2 me-2" href="#">Terms</a>
+                        <a class="text-white ms-2 me-2" href="#">FAQs</a>
+                        <a class="text-white ms-2 me-2" href="#">Help</a>
+                    </div>
+                </div>
+            </div>
+            <p class="m-0">©2021. All Rights Reserved. Designed by
+                <a class="text-white font-weight-bold" href="https://www.linkedin.com/in/sharfuddin-ahamed/">Sharfuddin Ahamed</a>
             </p>
         </div>
-    </footer>
-
-
-
-    <!-- <footer class="bg-secondary p-5">
-        <div class="row g-3 text-center">
-            <div class="col-12 col-md-4">
-                <p class="text-white ">Quick Links</p>
-                <a class="text-decoration-none d-block " href="# ">Projects</a>
-                <a class="text-decoration-none d-block " href="# ">About Me</a>
-            </div>
-            <div class="col-12 col-md-4 ">
-                <p class="text-white text-center ">Social Links</p>
-                <a class="h3 me-2 " href="# "><i class="bi bi-github text-secondary "></i></a>
-                <a class="h3 me-2 " href="# "><i class="bi bi-linkedin text-success "></i></a>
-                <a class="h3 me-2 " href="# "><i class="bi bi-facebook text-primary "></i></a>
-            </div>
-            <div class="col-12 col-md-4 ">
-                <p class="text-white text-center ">Contact</p>
-                <a class="btn text-muted fw-bold me-2 " href="tel:+8801933572903 "><i class="bi bi-telephone text-primary h3 "></i></a>
-                <button class="btn text-muted fw-bold " data-bs-toggle="modal" data-bs-target="#contactFormModal"> 
-                     <i class="bi bi-envelope text-primary h3 "></i>
-                </button>
-            </div>
-        </div>
-    </footer> -->
-    <!-- Footer End  -->
+      </footer>
+      <!-- Footer End  -->
 
     <!-- Start Modal For Contact Form  -->
     <div class="modal fade" id="contactFormModal">
@@ -429,20 +391,20 @@
                     <h5 class="modal-title " id="exampleModalLabel ">Contact Form</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body ">
-                    <form class="row g-3 " target="_blank " action="https://formsubmit.co/ahamedsharfuddin91@gmail.com" method="POST">
+                <div class="modal-body">
+                    <form class="row g-3" target="_blank" action="https://formsubmit.co/ahamedsharfuddin91@gmail.com" method="POST">
                         <p>I am open for any suggestion or just to have a chat.</p>
                         <div class="col-12 col-md-6">
-                            <input type="text " name="name" id=" " class="form-control form-control-sm " placeholder="Your Name " />
+                            <input type="text" name="name" id=" " class="form-control form-control-sm " placeholder="Your Name"/>
                         </div>
                         <div class="col-12 col-md-6 ">
-                            <input type="email " name="email" id=" " class="form-control form-control-sm " placeholder="Email " />
+                            <input type="email" name="email" id=" " class="form-control form-control-sm " placeholder="Email"/>
                         </div>
                         <div class="col-12 ">
-                            <input type="text " name="subject" id=" " class="form-control form-control-sm " placeholder="Subject " />
+                            <input type="text" name="subject" id=" " class="form-control form-control-sm " placeholder="Subject"/>
                         </div>
                         <div class="col-12 ">
-                            <textarea type="text " rows="5 " name="message " id=" " class="form-control form-control-sm " placeholder="Type Your Message "></textarea>
+                            <textarea type="text" rows="5" name="message" id=" " class="form-control form-control-sm " placeholder="Type Your Message "></textarea>
                         </div>
                         <input hidden name="_captcha" value="false">
                         <input hidden name="_autoresponse" value="Thanks! I Will Contact With You Very Soon">
@@ -453,17 +415,15 @@
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer ">
-                    <button type="button " class="btn btn-secondary " data-bs-dismiss="modal">Close</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Modal For Contact Form  -->
-
-
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous ">
-    </script>
+    
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 </body>
 
 </html>

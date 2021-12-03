@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./stylesheets/portfolio.css">
+    <!-- Custom JS  -->
+    <link rel="stylesheet" href="./js/index.js">
     <!-- Box Icon  -->
     <link href='https://unpkg.com/boxicons@2.1.0/css/boxicons.min.css' rel='stylesheet'>
     <title>Sharfuddin Portfolio</title>
@@ -161,72 +163,15 @@
         </div>
 
 <div class="row gy-3">
-    <div class="col-12 single-project">
-        <div class="row">
-            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column">
-                <strong class="d-inline-block mb-2 text-primary">1) Hero Cycle</strong>
-                <h3 class="mb-0 ">Bicycle Selling Site</h3>
-                <p class="mb-1 text-muted ">Nov 12</p>
-                <p class="card-text ">
-                    - User Can Manage Own Orders and Reviews <br>
-                    - Admin and User Dashboard Feature Based On Role <br>
-                    - Admin Can Add Cycles and Manage Orders <br>
-                    - Dynamic Star Rating Based On User Review <br>
-                </p>
-                <p className="d-block fw-bold lh-1 ">Technologies:
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">JWT</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Firebase</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
-                </p>
-                <a href="# " class=" ">More Details</a>
-            </div>
-            <div class="col-12 col-md-8 thumbnail-div" style="overflow: hidden;">
-                <img class="img-fluid img-thumbnail project-thumbnail d-block w-100" src="./images/Hero-Cycle.png"
-                style="height: 410px;"/>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-12 single-project">
+    <div class="col-12">
         <div class="row">
-            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column">
-                <strong class="d-inline-block mb-2 text-primary">2) Hero Travel</strong>
-                <h3 class="mb-0 ">Travel Booking Related Site</h3>
-                <p class="mb-1 text-muted ">Nov 5</p>
-                <p class="card-text ">
-                    - User Can See Own Booking History and Can Cancel <br>
-                    - To make Booking request, user have to logged into system <br>
-                    - All Booking and Packages Insert Update Delete only showed to authentic user in ADMIN Menu <br>
-                    - Sort User All Booking list by EMAIL <br>
-                    - If Booking is confirm then normal user can non cancel or delete that but admin have permission for these operation
-                </p>
-                <p className="d-block fw-bold lh-1 ">Technologies:
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Moment.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
-                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
-                </p>
-                <a href="# " class=" ">More Details</a>
-            </div>
-            <div class="col-12 col-md-8 thumbnail-div" style="overflow: hidden;">
-                <img class="img-fluid img-thumbnail project-thumbnail d-block w-100" src="./images/Hero-Travel.png"
-                style="height: 410px;"/>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-12 single-project">
-        <div class="row">
-            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column">
-                <strong class="d-inline-block mb-2 text-primary">3) Hero Health Care</strong>
+            <div class="card col-12 col-md-4 bg-info p-4 d-flex flex-column single-project">
+                <strong class="d-inline-block mb-2 text-primary">1) Hero Health Care</strong>
                 <h3 class="mb-0 ">Health Care Related Site</h3>
                 <p class="mb-1 text-muted ">Nov 5</p>
                 <p class="card-text ">
-                    - Doctors List Only Showed To Logged/Registered User<br/> 
+                    - Doctors List Only Showed To Registered User<br/> 
                     - Have Google Sign-In System<br/> 
                     - Admin Can Manage Orders<br/>
                 </p>
@@ -237,11 +182,80 @@
                     <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
                     <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
                 </p>
-                <a href="# " class=" ">More Details</a>
+                <div class="d-flex flex-column flex-sm-row gap-2">
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Details</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Live</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Client</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Server</a>
+                </div>
             </div>
-            <div class="col-12 col-md-8 thumbnail-div" style="overflow: hidden;">
-                <img class="img-fluid img-thumbnail project-thumbnail d-block w-100" src="./images/Hero-Health-Care.png"
-                style="height: 410px;"/>
+            <div class="col-12 col-md-8 thumbnail-div">
+                <img class="img-fluid img-thumbnail project-thumbnail d-block" src="./images/Hero-Health-Care.png"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column single-project">
+                <strong class="d-inline-block mb-2 text-primary">2) Hero Cycle</strong>
+                <h3 class="mb-0 ">Bicycle Selling Site</h3>
+                <p class="mb-1 text-muted ">Nov 12</p>
+                <p class="card-text ">
+                    - User Can Manage Own Orders and Reviews <br>
+                    - Admin and User Dashboard Feature Based On Role <br>
+                    - Admin Can Add Cycles and Manage Orders <br>
+                    - Dynamic Star Rating <br>
+                </p>
+                <p className="d-block fw-bold lh-1 ">Technologies:
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">JWT</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Firebase</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
+                </p>
+                <div class="d-flex flex-column flex-sm-row gap-2">
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Details</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Live</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Client</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Server</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 thumbnail-div">
+                <img class="img-fluid img-thumbnail project-thumbnail d-block" src="./images/Hero-Cycle.png"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12 col-md-4 bg-info p-4 d-flex flex-column  single-project">
+                <strong class="d-inline-block mb-2 text-primary">3) Hero Travel</strong>
+                <h3 class="mb-0 ">Travel Booking Related Site</h3>
+                <p class="mb-1 text-muted ">Nov 5</p>
+                <p class="card-text ">
+                    - For Booking, user have to logged into system <br>
+                    - Create, Update, Delete on Bookings & Orders list <br>
+                    - Sort User All Booking list by email <br>
+                    - Confirmed Booking can not be cancelled by user.
+                </p>
+                <p className="d-block fw-bold lh-1 ">Technologies:
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Moment.js</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">React</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Node.js</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">Express</span>
+                    <span class="text-uppercase bg-success d-inline-block m-1 p-1 rounded-3 ">MongoDB</span>
+                </p>
+                <div class="d-flex flex-column flex-sm-row gap-2">
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Details</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Live</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Client</a>
+                    <a href="# " target="_blank" class="btn btn-sm btn-warning">Server</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 thumbnail-div" >
+                <img class="img-fluid img-thumbnail project-thumbnail d-block" src="./images/Hero-Travel.png"/>
             </div>
         </div>
     </div>
@@ -269,25 +283,25 @@
                     </p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Sharfuddin Ahamed</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelor of Science in CSE</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Country: <span class="text-secondary">Bangladesh</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Comfortable: 
                             <span class="text-secondary">
-                            Bootstrap, JavaScript, ES6, React
+                            Bootstrap, ES6, React
                             </span></h6>
                         </div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelor of Science in CSE</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Familiar: 
                             <span class="text-secondary">
                             Node.js , Express, MongoDB
                             </span></h6>
                         </div>
+                        <div class="col-sm-6 py-2"><h6>Country: <span class="text-secondary">Bangladesh</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Forgetting (Not Practised for Long Time): 
                             <span class="text-secondary">
                                 Selenium, Oracle APEX, JSP Servlet, PHP, After Effects, Maya 3D Modeling
                             </span></h6>
                         </div>
                     </div>
-                    <a href="" class="btn btn-color">Hire Me</a>
+                    <a href="" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#contactFormModal">Hire Me</a>
                 </div>
             </div>
         </div>
@@ -323,10 +337,10 @@
         </div>
 
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
+          <div class="info-box card">
             <i class="bx bx-envelope"></i>
             <h3>Email Me</h3>
-            <p>sharfuddin.ahamed91@gmail.com</p>
+            <p class="card-text">sharfuddin.ahamed91@gmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">

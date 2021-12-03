@@ -59,21 +59,33 @@ body {
     transform: rotate(-6deg);
 }
 
+.thumbnail-div{
+    overflow:hidden;
+    overflow-y: scroll;
+    height: 400px;
+    scroll-behavior: smooth;
+}
 .project-thumbnail {
+    width: 100%;
+}
+/* .single-project:hover .project-thumbnail{
+    object-position: bottom; 
+}
+/* .project-thumbnail {
     object-fit: cover;
     object-position: top;
     transition: 15s;
     transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
     transform: scale3d(0.9, 0.9, 0.5);
-}
+} */
 
-.single-project:hover .project-thumbnail,
+/* .single-project:hover .project-thumbnail,
 .thumbnail-div:hover .project-thumbnail {
     object-position: bottom;
     /* transform: skew(1deg) scale3d(1.4, 1.2, 2.3) rotate3d(1, 0, 0, 30deg); */
-    transform: scale3d(1.1, 1, 2);
-}
+    /* transform: scale3d(1.1, 1, 2); 
+} */
 
 
 /*--------------------------------------------------------------
@@ -100,6 +112,8 @@ body {
     font-size: 24px;
     color: #18d26e;
     border-radius: 50%;
+    width: 50px;
+    height: 50px;
     padding: 14px;
     float: left;
     background: rgba(255, 255, 255, 0.1);
